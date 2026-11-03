@@ -1,0 +1,22 @@
+:root {
+  --bg: #f3efe6;
+  --surface: #fbf9f4;
+  --ink: #14201a;
+  --muted: #566159;
+  --line: rgba(20, 32, 26, 0.1);
+  --accent: #006837;
+  --accent-deep: #0b2a1c;
+  --accent-ink: #ffffff;
+  --sage: #dce6da;
+  --sand: #e7dfcd;
+
+  --font-body: 'Geist Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: 'Newsreader Variable', 'Iowan Old Style', Georgia, serif;
+
+  --ease: cubic-bezier(0.32, 0.72, 0, 1);
+  --radius-shell: 2rem;
+  --radius-core: calc(var(--radius-shell) - 0.5rem);
+  --gutter: clamp(1.25rem, 5vw, 2.5rem);
+  --max: 76rem;
+  --section: clamp(5rem, 12vw, 9rem);
+}
